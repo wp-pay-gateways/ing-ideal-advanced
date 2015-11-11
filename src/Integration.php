@@ -2,7 +2,10 @@
 
 class Pronamic_WP_Pay_Gateways_ING_IDealAdvanced_GatewayIntegration {
 	public function __construct() {
-		$this->id = 'ing-ideal-advanced';
+		$this->id         = 'ing-ideal-advanced';
+		$this->name       = 'ING - iDEAL Advanced';
+		$this->provider   = 'ing';
+		$this->deprecated = true;
 	}
 
 	public function get_config_factory_class() {

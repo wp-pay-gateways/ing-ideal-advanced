@@ -1,7 +1,7 @@
 {
 	"name": "wp-pay-gateways/ing-ideal-advanced",
-	"description": "ING - iDEAL Advanced driver for the WordPress payment processing library.",
-	"keywords": ["wordpress", "wp", "pay", "ing", "bank", "ideal", "advanced", "gateway", "pronamic"],
+	"description": "[DEPRECATED] ING - iDEAL Advanced driver for the WordPress payment processing library.",
+	"keywords": ["deprecated", "wordpress", "wp", "pay", "ing", "bank", "ideal", "advanced", "gateway", "pronamic"],
 	"homepage": "http://www.wp-pay.org/gateways/ing-ideal-advanced/",
 	"license": "GPL",
 	"authors": [
