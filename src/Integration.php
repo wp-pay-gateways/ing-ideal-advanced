@@ -7,4 +7,8 @@ class Pronamic_WP_Pay_Gateways_ING_IDealAdvanced_Integration extends Pronamic_WP
 		$this->provider   = 'ing';
 		$this->deprecated = true;
 	}
+
+	public function get_config_factory_class() {
+		return 'Pronamic_WP_Pay_Gateways_ING_IDealAdvanced_ConfigFactory';
+	}
 }
