@@ -18,4 +18,14 @@ class Pronamic_WP_Pay_Gateways_ING_IDealAdvanced_ConfigTest extends PHPUnit_Fram
 
 		$this->assertEquals( $expected, $url );
 	}
+
+	public function test_certificates() {
+		$config = new Pronamic_WP_Pay_Gateways_ING_IDealAdvanced_Config();
+
+		$certificates = $config->get_certificates();
+
+		foreach ( $certificates as $certificate ) {
+			$this->assertFileExists( $certificate );
+		}
+	}
 }
